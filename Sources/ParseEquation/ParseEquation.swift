@@ -9,7 +9,7 @@ public struct ParseEquation {
 		case symbol(value: Symbol)
 	}
 	
-	/// An enum that represents a mathimatical operator.
+	/// An enum that represents a mathematical operator.
 	///
 	/// This is recursive, nesting `Block`s for the left- and right-hand sides.
 	public indirect enum Symbol {
