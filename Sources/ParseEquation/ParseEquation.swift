@@ -194,10 +194,11 @@ public struct ParseEquation {
 		}
 	}
 	
+	// TODO: Implement order of operations. 
 	/// Fully parse an equation.
 	///
 	/// - Important: Order of operations isn't respected, nor are parentheses.
-	/// The equation is parsed left-to-right. 
+	/// The equation is parsed left-to-right.
 	public func parse(equation: String) -> Double {
 		return parse(block: getBlock(for: equation))
 	}
