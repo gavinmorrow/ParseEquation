@@ -3,9 +3,8 @@ import XCTest
 
 final class ParseEquationTests: XCTestCase {
     func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct
-        // results.
-        XCTAssertEqual(ParseEquation().text, "Hello, World!")
+        // Use XCTAssert and related functions to verify
+        // your tests produce the correct results.
+        XCTAssertEqual(ParseEquation().parse(equation: "-5*10+100-25 / 2.5 + 12"), 42.0)
     }
 }
