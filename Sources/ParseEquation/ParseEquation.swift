@@ -202,5 +202,4 @@ public struct ParseEquation {
 	public func parse(equation: String) -> Double {
 		return parse(block: getBlock(for: equation))
 	}
-
 }
